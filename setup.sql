@@ -1,0 +1,8 @@
+CREATE DATABASE challenge;
+
+CREATE TABLE data
+(
+  id int NOT NULL AUTO_INCREMENT,
+  str VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id)
+);
